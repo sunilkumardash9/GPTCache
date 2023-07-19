@@ -257,3 +257,8 @@ def import_fastapi():
 
 def import_redis():
     _check_library("redis")
+    _check_library("redis_om")
+
+
+def import_starlette():
+    _check_library("starlette")
